@@ -1,0 +1,68 @@
+/* Gold accent for button */
+.btn-gold {
+    background: #e7b74a;
+    color: #232323;
+    border: none;
+    transition: background 0.2s;
+  }
+  .btn-gold:hover, .btn-gold:focus {
+    background: #cfa72f;
+    color: #232323;
+  }
+  
+  /* Gold underline for active nav link */
+  .nav-link.active, .nav-link:focus, .nav-link:hover {
+    color: #e7b74a !important;
+    font-weight: 800;
+    position: relative;
+  }
+  .nav-link.active::after, .nav-link:focus::after, .nav-link:hover::after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: #e7b74a;
+    border-radius: 2px;
+    margin: 3px auto 0 auto;
+  }
+  
+  /* Remove default Bootstrap focus outline */
+  .navbar .nav-link:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  .phone-number {
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: default;
+  }
+  
+  .phone-number span {
+    font-size: 1.2rem;
+  }
+  
+  .phone-number a:hover {
+    text-decoration: underline;
+  }
+  /* Header.css */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  
+  /* index.css or global CSS */
+  html {
+    scroll-behavior: smooth;
+  }
+  section {
+    scroll-margin-top: 90px; /* Adjust to match header/nav height */
+  }
+  

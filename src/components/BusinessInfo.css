@@ -1,0 +1,98 @@
+.business-section {
+    width: 100vw;
+    min-height: 40vh;
+    background: #232323;
+    color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0 3rem 0;
+  }
+  
+  .business-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1.5rem;
+  }
+  
+  .business-story-label {
+    color: #e7b74a;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.7rem;
+  }
+  
+  .business-title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    display: inline-block;
+  }
+  
+  .brand-highlight {
+    color: #e7b74a;
+    font-weight: 900;
+  }
+  
+  .business-title-underline {
+    width: 80px;
+    height: 4px;
+    background: #e7b74a;
+    margin: 0.5rem auto 2rem auto;
+    border-radius: 2px;
+  }
+  
+  .business-desc {
+    color: #bdbdbd;
+    font-size: 1.35rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 900px) {
+    .business-title {
+      font-size: 2rem;
+    }
+    .business-desc {
+      font-size: 1.12rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .business-section {
+      padding: 2rem 0 1.5rem 0;
+    }
+    .business-title {
+      font-size: 1.3rem;
+    }
+    .business-desc {
+      font-size: 1rem;
+    }
+  }
+  /* Remove all padding and margin */
+section {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  
+  /* Or target a specific section by class or id */
+  #mySection {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  
