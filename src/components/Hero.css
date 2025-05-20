@@ -42,7 +42,7 @@
   .hero-highlight {
     color: #ffe082;
     font-weight: 900;
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     display: block;
     margin-top: 8px;
   }
@@ -75,7 +75,7 @@
   
   .hero-services-btn,
   .hero-book-btn {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     padding: 13px 28px;
     border-radius: 8px;
@@ -144,7 +144,7 @@
       padding: 32px 4vw 0 4vw;
     }
     .hero-text h1 {
-      font-size: 2.1rem;
+      font-size: 1.9rem;
     }
     .hero-highlight {
       font-size: 1.5rem;
