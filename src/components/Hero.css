@@ -24,7 +24,7 @@
   
   .hero-subheading {
     color: #ffe082;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 0.5px;
     margin-bottom: 18px;
@@ -32,7 +32,7 @@
   }
   
   .hero-text h1 {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
     font-weight: 900;
     line-height: 1.08;
     margin: 0 0 12px 0;
@@ -75,8 +75,8 @@
   
   .hero-services-btn,
   .hero-book-btn {
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 1.0rem;
+    font-weight: 600;
     padding: 13px 28px;
     border-radius: 8px;
     border: none;
