@@ -3,7 +3,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./AppointmentBooking.css";
 
-//import bgImage from "../assets/barber-bg.jpg";
+import bgImage from "../assets/barber-bg.jpg";
 import barber1 from "../assets/barber1.jpg";
 import barber2 from "../assets/barber2.jpg";
 import barber3 from "../assets/barber3.jpg";
